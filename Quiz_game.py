@@ -29,8 +29,8 @@ if agree.lower() == "yes":
     print("Your Details are: \n" + "Name: " + name + "\n" + "Age: " + str(age) + "\n" + "Gender: " + gender)
 
 
-name.capitalize()
-gender.capitalize()
+name.upper()
+gender.upper()
 score = 0
 Q_no = 0
 
